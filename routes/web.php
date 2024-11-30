@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LivroController;  
-use App\Http\Controllers\CadUsuarioController; 
+use App\Http\Controllers\LivroController;
+use App\Http\Controllers\CadUsuarioController;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Response;
 
