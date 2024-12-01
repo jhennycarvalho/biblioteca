@@ -14,7 +14,7 @@ class CadUsuarioController extends Controller
             'nome' => 'required|string|max:255',
             'num_matricula' => 'required|numeric',
             'email' => 'required|email|unique:usuarios,email',
-            'senha' => 'required|string|min:6',
+            'senha' => 'required|string|min:8',
             'serie' => 'required|string|max:100',
             'turma' => 'required|string|max:100',
             'turno' => 'required|string|max:100',
